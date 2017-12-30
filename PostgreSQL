@@ -1,1 +1,39 @@
 
+## 1 环境信息
+
+| IP地址IP地址     | 系统版本     | 数据库版本               | CPU    | 内存    | 数据磁盘大小 |
+| ------------ | -------- | ------------------- | ------ | ----- | ------ |
+| 10.2.211.29  | rhel-7.4 | postgres-xl-9.5r1.6 | 20core | 256GB | 500G   |
+| 10.2.211.30  | rhel-7.4 | postgres-xl-9.5r1.6 | 20core | 256GB | 500G   |
+| 10.2.210.199 | rhel-7.4 | postgres-xl-9.5r1.6 | 20core | 256GB | 1000G  |
+| 10.2.210.200 | rhel-7.4 | postgres-xl-9.5r1.6 | 20core | 256GB | 1000G  |
+| 10.2.210.117 | rhel-7.4 | postgres-xl-9.5r1.6 | 20core | 64GB  | 1000G  |
+| 10.2.210.118 | rhel-7.4 | postgres-xl-9.5r1.6 | 20core | 64GB  | 1000G  |
+| 10.2.210.119 | rhel-7.4 | postgres-xl-9.5r1.6 | 20core | 64GB  | 1000G  |
+| 10.2.210.120 | rhel-7.4 | postgres-xl-9.5r1.6 | 20core | 64GB  | 1000G  |
+
+### 1.1 集群规划
+| IP           | 角色             | 端口    | nodename   | data_directory                  |
+| ------------ | -------------- | ----- | ---------- | ------------------------------- |
+| 10.2.210.117 | gtm            | 6660  | gtm_master | /jboss/pgxl/data/gtm_master     |
+| 10.2.210.118 | gtm_slave      | 6660  | gtm_slave  | /jboss/pgxl/data/gtm_slave      |
+| 10.2.211.29  | coordinator    | 5432  | coord1     | /jboss/pgxl/data/coordinator    |
+|              | datanode       | 6432  | dn1        | /jboss/pgxl/data/datanode       |
+| 10.2.210.117 | datanode_slave | 16432 | dn1_slave  | /jboss/pgxl/data/datanode_slave |
+|              | gtm proxy      | 6661  | gtm_pxy1   | /jboss/pgxl/data/gtm_proxy      |
+| 10.2.211.30  | coordinator    | 5432  | coord2     | /jboss/pgxl/data/coordinator    |
+|              | datanode       | 6432  | dn2        | /jboss/pgxl/data/datanode       |
+| 10.2.210.118 | datanode_slave | 16432 | dn2_slave  | /jboss/pgxl/data/datanode_slave |
+|              | gtm proxy      | 6661  | gtm_pxy2   | /jboss/pgxl/data/gtm_proxy      |
+| 10.2.210.199 | coordinator    | 5432  | coord3     | /jboss/pgxl/data/coordinator    |
+|              | datanode       | 6432  | dn3        | /jboss/pgxl/data/datanode       |
+| 10.2.210.119 | datanode_slave | 16432 | dn3_slave3 | /jboss/pgxl/data/datanode_slave |
+|              | gtm proxy      | 6661  | gtm_pxy3   | /jboss/pgxl/data/gtm_proxy      |
+| 10.2.210.200 | coordinator    | 5432  | coord4     | /jboss/pgxl/data/coordinator    |
+|              | datanode       | 6432  | dn4        | /jboss/pgxl/data/datanode       |
+| 10.2.210.120 | datanode_slave | 16432 | dn4_slave  | /jboss/pgxl/data/datanode_slave |
+|              | gtm proxy      | 6661  | gtm_pxy4   | /jboss/pgxl/data/gtm_proxy      |
+
+### 1.2 整体架构图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/EtlRsbVmOYZqEaohQQdoIKWjgJgMGOGLjOicSnmhYHemObu59RwcyjvYx2xNkzRJ0uv3uVHsoWK2NkpBAVNk8UQ/0?wx_fmt=png)
