@@ -1,0 +1,757 @@
+用法：./loadData.sh dataPath tableName
+说明：
+dataPath：待加载数据目录
+tableName：目标表名
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_aa
+9.108
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_aa finished, ret code:2,used 9 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ab
+12.671
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ab finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ac
+11.749
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ac finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ad
+14.049
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ad finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ae
+11.114
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ae finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_af
+11.631
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_af finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ag
+13.966
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ag finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ah
+10.581
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ah finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ai
+13.690
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ai finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_aj
+11.093
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_aj finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ak
+12.071
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ak finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_al
+13.661
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_al finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_am
+12.070
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_am finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_an
+11.772
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_an finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ao
+13.831
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ao finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ap
+10.839
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ap finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_aq
+13.400
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_aq finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ar
+11.038
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ar finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_as
+12.201
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_as finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_at
+13.491
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_at finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_au
+11.593
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_au finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_av
+13.398
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_av finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_aw
+10.798
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_aw finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ax
+11.487
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ax finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ay
+14.130
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ay finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_az
+12.019
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_az finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_ba
+11.731
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_ba finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bb
+13.451
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bb finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bc
+11.105
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bc finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bd
+14.401
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bd finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_be
+11.977
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_be finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bf
+12.467
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bf finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bg
+13.618
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bg finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bh
+10.789
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bh finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bi
+11.371
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bi finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bj
+14.320
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bj finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bk
+11.626
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bk finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bl
+13.472
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bl finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bm
+12.180
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bm finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bn
+14.185
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bn finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bo
+15.134
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bo finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bp
+15.109
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bp finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bq
+10.536
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bq finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_br
+12.170
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_br finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bs
+14.784
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bs finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bt
+12.226
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bt finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bu
+16.306
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bu finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bv
+13.139
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bv finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bw
+15.362
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bw finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_16.txt_bx
+14.412
+load data/jboss/test_data/data/split_data/clikchouse_16.txt_bx finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_aa
+12.972
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_aa finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ab
+14.215
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ab finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ac
+9.680
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ac finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ad
+14.946
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ad finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ae
+13.338
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ae finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_af
+12.834
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_af finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ag
+21.103
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ag finished, ret code:2,used 22 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ah
+11.344
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ah finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ai
+14.928
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ai finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_aj
+18.673
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_aj finished, ret code:2,used 19 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ak
+9.397
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ak finished, ret code:2,used 9 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_al
+22.918
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_al finished, ret code:2,used 23 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_am
+11.431
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_am finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_an
+12.266
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_an finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ao
+19.254
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ao finished, ret code:2,used 20 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ap
+10.119
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ap finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_aq
+15.381
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_aq finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ar
+14.699
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ar finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_as
+10.015
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_as finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_at
+13.158
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_at finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_au
+19.074
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_au finished, ret code:2,used 20 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_av
+11.486
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_av finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_aw
+25.628
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_aw finished, ret code:2,used 26 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ax
+10.649
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ax finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ay
+13.489
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ay finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_az
+15.757
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_az finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_ba
+22.356
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_ba finished, ret code:2,used 22 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bb
+16.693
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bb finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bc
+20.461
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bc finished, ret code:2,used 21 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bd
+11.818
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bd finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_be
+23.118
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_be finished, ret code:2,used 23 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bf
+12.157
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bf finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bg
+17.208
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bg finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bh
+9.844
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bh finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bi
+16.169
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bi finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bj
+16.821
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bj finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bk
+15.788
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bk finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bl
+14.452
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bl finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bm
+10.768
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bm finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bn
+16.720
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bn finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bo
+16.504
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bo finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bp
+11.479
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bp finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bq
+25.524
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bq finished, ret code:2,used 26 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_br
+15.592
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_br finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bs
+14.730
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bs finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bt
+23.681
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bt finished, ret code:2,used 24 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bu
+11.592
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bu finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bv
+14.687
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bv finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bw
+21.798
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bw finished, ret code:2,used 22 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_17.txt_bx
+10.762
+load data/jboss/test_data/data/split_data/clikchouse_17.txt_bx finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_aa
+14.070
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_aa finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ab
+19.846
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ab finished, ret code:2,used 20 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ac
+12.056
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ac finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ad
+13.996
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ad finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ae
+12.503
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ae finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_af
+12.860
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_af finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ag
+17.173
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ag finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ah
+11.045
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ah finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ai
+17.687
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ai finished, ret code:2,used 18 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_aj
+11.360
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_aj finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ak
+12.420
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ak finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_al
+15.101
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_al finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_am
+13.033
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_am finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_an
+12.828
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_an finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ao
+20.174
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ao finished, ret code:2,used 21 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ap
+17.283
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ap finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_aq
+26.249
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_aq finished, ret code:2,used 26 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ar
+12.675
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ar finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_as
+10.979
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_as finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_at
+15.934
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_at finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_au
+12.512
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_au finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_av
+21.285
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_av finished, ret code:2,used 21 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_aw
+14.422
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_aw finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ax
+17.623
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ax finished, ret code:2,used 18 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ay
+18.091
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ay finished, ret code:2,used 18 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_az
+17.519
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_az finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_ba
+24.537
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_ba finished, ret code:2,used 25 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bb
+20.544
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bb finished, ret code:2,used 21 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bc
+17.192
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bc finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bd
+19.454
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bd finished, ret code:2,used 19 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_be
+11.275
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_be finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bf
+14.643
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bf finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bg
+13.901
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bg finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bh
+13.962
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bh finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bi
+16.305
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bi finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bj
+14.130
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bj finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bk
+22.045
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bk finished, ret code:2,used 22 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bl
+13.209
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bl finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bm
+12.314
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bm finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bn
+16.618
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bn finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bo
+11.730
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bo finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bp
+13.369
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bp finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bq
+15.118
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bq finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_br
+14.799
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_br finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bs
+12.572
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bs finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bt
+17.131
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bt finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bu
+15.380
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bu finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bv
+11.487
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bv finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bw
+17.379
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bw finished, ret code:2,used 18 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_18.txt_bx
+11.877
+load data/jboss/test_data/data/split_data/clikchouse_18.txt_bx finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_aa
+12.712
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_aa finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ab
+14.872
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ab finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ac
+11.126
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ac finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ad
+16.470
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ad finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ae
+12.203
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ae finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_af
+19.588
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_af finished, ret code:2,used 19 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ag
+14.303
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ag finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ah
+10.206
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ah finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ai
+15.978
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ai finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_aj
+9.743
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_aj finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ak
+17.928
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ak finished, ret code:2,used 18 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_al
+15.494
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_al finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_am
+21.161
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_am finished, ret code:2,used 21 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_an
+15.017
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_an finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ao
+13.714
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ao finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ap
+11.580
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ap finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_aq
+17.042
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_aq finished, ret code:2,used 18 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ar
+12.013
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ar finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_as
+12.861
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_as finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_at
+26.665
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_at finished, ret code:2,used 26 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_au
+12.673
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_au finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_av
+17.867
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_av finished, ret code:2,used 18 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_aw
+11.074
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_aw finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ax
+12.432
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ax finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ay
+18.528
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ay finished, ret code:2,used 19 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_az
+15.130
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_az finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_ba
+14.049
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_ba finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bb
+22.458
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bb finished, ret code:2,used 22 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bc
+13.026
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bc finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bd
+19.133
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bd finished, ret code:2,used 19 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_be
+14.438
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_be finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bf
+11.021
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bf finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bg
+19.838
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bg finished, ret code:2,used 20 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bh
+16.638
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bh finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bi
+37.631
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bi finished, ret code:2,used 38 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bj
+14.723
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bj finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bk
+12.975
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bk finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bl
+31.134
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bl finished, ret code:2,used 31 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bm
+10.872
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bm finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bn
+12.822
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bn finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bo
+19.574
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bo finished, ret code:2,used 20 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bp
+15.457
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bp finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bq
+12.293
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bq finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_br
+19.053
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_br finished, ret code:2,used 19 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bs
+9.807
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bs finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bt
+15.027
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bt finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bu
+14.569
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bu finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bv
+10.734
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bv finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bw
+15.323
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bw finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_19.txt_bx
+13.018
+load data/jboss/test_data/data/split_data/clikchouse_19.txt_bx finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_aa
+15.659
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_aa finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ab
+15.297
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ab finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ac
+14.097
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ac finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ad
+12.890
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ad finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ae
+16.617
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ae finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_af
+11.978
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_af finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ag
+16.360
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ag finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ah
+13.336
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ah finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ai
+9.709
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ai finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_aj
+13.454
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_aj finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ak
+29.288
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ak finished, ret code:2,used 30 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_al
+14.514
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_al finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_am
+13.351
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_am finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_an
+10.948
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_an finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ao
+16.955
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ao finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ap
+15.539
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ap finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_aq
+12.626
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_aq finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ar
+21.610
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ar finished, ret code:2,used 22 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_as
+11.369
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_as finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_at
+15.396
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_at finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_au
+25.984
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_au finished, ret code:2,used 26 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_av
+14.895
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_av finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_aw
+10.208
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_aw finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ax
+11.862
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ax finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ay
+16.410
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ay finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_az
+12.610
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_az finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_ba
+13.145
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_ba finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bb
+20.271
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bb finished, ret code:2,used 20 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bc
+11.241
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bc finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bd
+15.546
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bd finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_be
+10.776
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_be finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bf
+16.696
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bf finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bg
+13.813
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bg finished, ret code:2,used 14 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bh
+18.080
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bh finished, ret code:2,used 18 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bi
+14.689
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bi finished, ret code:2,used 15 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bj
+12.692
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bj finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bk
+Received exception from server:
+Code: 75. DB::Exception: Received from localhost:9000, ::1. DB::Exception: Cannot write to file /jboss/clickhouse/data/default/ch_ip_tags/tmp_20181210_20181221_231_231_0/str_col_5.bin, errno: 28, strerror: No space left on device. 
+8.988
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bk finished, ret code:2,used 9 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bl
+17.507
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bl finished, ret code:2,used 18 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bm
+12.117
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bm finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bn
+10.706
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bn finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bo
+16.452
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bo finished, ret code:2,used 17 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bp
+11.530
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bp finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bq
+20.482
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bq finished, ret code:2,used 21 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_br
+11.758
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_br finished, ret code:2,used 12 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bs
+10.341
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bs finished, ret code:2,used 10 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bt
+24.308
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bt finished, ret code:2,used 25 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bu
+13.301
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bu finished, ret code:2,used 13 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bv
+11.213
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bv finished, ret code:2,used 11 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bw
+15.946
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bw finished, ret code:2,used 16 s.
+load data from file:/jboss/test_data/data/split_data/clikchouse_20.txt_bx
+10.829
+load data/jboss/test_data/data/split_data/clikchouse_20.txt_bx finished, ret code:2,used 11 s.
+all data in path /jboss/test_data/data/split_data loaded finished, used 3719 s.
