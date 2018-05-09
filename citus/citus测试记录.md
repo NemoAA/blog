@@ -534,7 +534,12 @@ set citus.shard_count = 64;
 set citus.shard_replication_factor = 1;
 SET citus.replication_model TO streaming;
 SELECT create_distributed_table('wb10_user_mx', 'user_id');
+
+-- 开启同步元数据
+select start_metadata_sync_to_node('192.168.6.11',5432);
+select start_metadata_sync_to_node('192.168.6.12',5432);
 ```
+
 
 ### 5.3 生成测试数据
 
