@@ -4,9 +4,9 @@
 
 | 角色        | IP           | 系统            | 数据库      | 内存 | CPU    | 磁盘                |
 | ----------- | ------------ | --------------- | ----------- | ---- | ------ | ------------------- |
-| coordinator | 192.168.6.11 | oraclelinux 7.3 | citusdb 7.3 | 96GB | 2X16核 | 4X600GB sas raid 10 |
-| work        | 192.168.6.12 | oraclelinux 7.3 | citusdb 7.3 | 96GB | 2X16核 | 8X600GB sas raid 10 |
-| work        | 192.168.6.13 | oraclelinux 7.3 | citusdb 7.3 | 96GB | 2X16核 | 8X600GB sas raid 10 |
+| coordinator | 192.168.6.11 | oraclelinux 7.3 | citusdb 7.3 | 96GB | 2X16核 | 2X480GB SSD raid 0 |
+| work        | 192.168.6.12 | oraclelinux 7.3 | citusdb 7.3 | 96GB | 2X16核 | 2X480GB SSD raid 0 |
+| work        | 192.168.6.13 | oraclelinux 7.3 | citusdb 7.3 | 96GB | 2X16核 | 2X480GB SSD raid 0 |
 
 ## 2. INSERT测试
 
