@@ -1,0 +1,91 @@
+<yandex>
+<clickhouse_remote_servers>
+    <perftest_4shards_2replicas>
+        <shard>
+            <internal_replication>true</internal_replication>
+            <replica>
+            <default_database>testcluster_shard_1</default_database>
+                <host>192.168.8.11</host>
+                <port>9000</port>
+            </replica>
+            <replica>
+            <default_database>testcluster_shard_1</default_database>
+                <host>192.168.8.12</host>
+                <port>9000</port>
+            </replica>			
+        </shard>
+        <shard>
+            <internal_replication>true</internal_replication>
+            <replica>
+            <default_database>testcluster_shard_2</default_database>
+                <host>192.168.8.12</host>
+                <port>9000</port>
+            </replica>
+            <replica>
+            <default_database>testcluster_shard_2</default_database>
+                <host>192.168.8.14</host>
+                <port>9000</port>
+            </replica>
+        </shard>
+        <shard>
+            <internal_replication>true</internal_replication>
+            <replica>
+            <default_database>testcluster_shard_3</default_database>
+                <host>192.168.8.14</host>
+                <port>9000</port>
+            </replica>
+            <replica>
+            <default_database>testcluster_shard_3</default_database>
+                <host>192.168.8.15</host>
+                <port>9000</port>
+            </replica>
+        </shard>
+        <shard>
+            <internal_replication>true</internal_replication>
+            <replica>
+            <default_database>testcluster_shard_4</default_database>
+                <host>192.168.8.15</host>
+                <port>9000</port>
+            </replica>
+            <replica>
+            <default_database>testcluster_shard_4</default_database>
+                <host>192.168.8.11</host>
+                <port>9000</port>
+            </replica>
+        </shard>
+    </perftest_4shards_2replicas>
+</clickhouse_remote_servers>
+
+<zookeeper-servers>
+  <node index="1">
+    <host>192.168.8.11</host>
+    <port>2181</port>
+  </node>
+  <node index="2">
+    <host>192.168.8.12</host>
+    <port>2181</port>
+  </node>
+  <node index="3">
+    <host>192.168.8.14</host>
+    <port>2181</port>
+  </node>
+</zookeeper-servers>
+
+<macros>
+    <shard>01</shard>
+    <replica>192.168.8.11</replica>
+</macros>
+
+<networks>
+   <ip>::/0</ip>
+</networks>
+
+<clickhouse_compression>
+<case>
+  <min_part_size>10000000000</min_part_size>
+  <min_part_size_ratio>0.01</min_part_size_ratio>
+  <method>lz4</method>
+</case>
+</clickhouse_compression>
+
+</yandex>
