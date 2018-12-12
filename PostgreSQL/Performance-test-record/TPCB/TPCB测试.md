@@ -1,3 +1,7 @@
+---
+typora-root-url: result
+---
+
 # PostgreSQL TPCB测试记录
 
 ## 1. 环境信息
@@ -221,9 +225,9 @@ nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 56 -j 56 -T 14400 t
 
 ![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.1-4h.png)
 
-![1544596149825](C:\Users\nemo\AppData\Roaming\Typora\typora-user-images\1544596149825.png)
+![1544596521762](/tpcb-test-4.1-4h-os.jpg)
 
-
+![1544596470796](/tpcb-test-4.1-4h-disk.jpg)
 
 ## 参考
 
