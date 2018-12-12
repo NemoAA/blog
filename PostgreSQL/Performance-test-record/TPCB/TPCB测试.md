@@ -219,7 +219,9 @@ nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 56 -j 56 -T 14400 t
 
 #### 4.1.3 测试结果
 
-![]()
+![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.1-4h.png)
+
+
 
 
 
