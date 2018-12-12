@@ -246,13 +246,11 @@ checkpoint_completion_target = 0.9
 
 ![1544597137401](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-1h-tps.jpg?raw=true)
 
-![1544597326919](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-os.jpg)
+![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-os.jpg)
 
-![1544597372889](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-cpu.jpg)
+![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-cpu.jpg)
 
-![1544597397859](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-disk.jpg)
-
-
+![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-disk.jpg)
 
 ### 4.3 test-3
 
@@ -267,16 +265,20 @@ vm.dirty_background_bytes = 41943040
 
 -- postgresql.conf
 checkpoint_timeout = 60min
-max_wal_size = 64GB
+max_wal_size = 192GB
 min_wal_size = 16GB
 checkpoint_completion_target = 0.9
 ```
 
 #### 4.3.2 测试结果
 
+![1544605145191](C:\Users\nemo\AppData\Roaming\Typora\typora-user-images\1544605145191.png)
 
+![1544605246673](C:\Users\nemo\AppData\Roaming\Typora\typora-user-images\1544605246673.png)
 
+![1544605251652](C:\Users\nemo\AppData\Roaming\Typora\typora-user-images\1544605251652.png)
 
+![1544605259667](C:\Users\nemo\AppData\Roaming\Typora\typora-user-images\1544605259667.png)
 
 ## 参考
 
