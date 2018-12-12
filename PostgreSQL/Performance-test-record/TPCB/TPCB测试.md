@@ -221,7 +221,7 @@ nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 56 -j 56 -T 14400 t
 
 ![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.1-4h.png)
 
-
+![1544596149825](C:\Users\nemo\AppData\Roaming\Typora\typora-user-images\1544596149825.png)
 
 
 
