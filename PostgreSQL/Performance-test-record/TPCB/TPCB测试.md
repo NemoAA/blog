@@ -300,9 +300,15 @@ checkpoint_completion_target = 0.9
 
 #### 4.4.2 测试结果
 
+![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.4-tps.png)
+
+![1544625362536](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.4-os.png)
+
+![1544625417484](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.4-cpu.png)
+
+![1544625556966](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.4-disk.png)
 
 
-![1544625362536](C:\Users\nemo\AppData\Roaming\Typora\typora-user-images\1544625362536.png)
 
 ## 参考
 
