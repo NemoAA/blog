@@ -911,6 +911,8 @@ pgbench -M simple -n -r -P 1 -f /home/postgres/citus/citus_user_2_query.sql -c 6
 
 ##### 1) 测试结果
 
+
+
 | 分片字段  | 查询   | Coordinator Node   | Worker Nodes           | shard | Latency (ms) | Transactions per sec |
 | --------- | ------ | ------------------ | ---------------------- | ----- | ------------ | -------------------- |
 | user_name | 子查询 | 32cores - 96GB RAM | 2*(32 core - 96GB RAM) | 64    | 990          | 61                   |
