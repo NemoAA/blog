@@ -244,13 +244,15 @@ checkpoint_completion_target = 0.9
 
 #### 4.2.2 测试结果
 
-![1544597137401](/tpcb-test-4.2-1h-tps.jpg)
+![1544597137401](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-1h-tps.jpg?raw=true)
 
-![1544597326919](/tpcb-test-4.2-os.jpg)
+![1544597326919](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-os.jpg)
 
-![1544597372889](/tpcb-test-4.2-cpu.jpg)
+![1544597372889](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-cpu.jpg)
 
-![1544597397859](/tpcb-test-4.2-disk.jpg)
+![1544597397859](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.2-disk.jpg)
+
+
 
 ### 4.3 test-3
 
