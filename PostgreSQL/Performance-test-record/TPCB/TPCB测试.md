@@ -1,7 +1,3 @@
----
-typora-root-url: result
----
-
 # PostgreSQL TPCB测试记录
 
 ## 1. 环境信息
@@ -193,9 +189,12 @@ max_wal_size = 3*2*wal_write_size = 26.8
 postgres=# create database tpcb;
 CREATE DATABASE
 [postgres@mdw log]$ pgbench -i -s 1000 tpcb -F 80
+
+-- 测试语句
+nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 56 -j 56 -T 14400 tpcb > /home/postgres/tsdb/log/test_tpcb.log 2>&1 &
 ```
 
-## 4. 测试语句
+## 4. 测试
 
 ### 4.1 test-1
 
@@ -215,19 +214,67 @@ min_wal_size = 8GB
 checkpoint_completion_target = 0.9
 ```
 
-#### 4.1.2 pgbench测试语句
-
-```
-nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 56 -j 56 -T 14400 tpcb > /home/postgres/tsdb/log/test_tpcb.log 2>&1 &
-```
-
-#### 4.1.3 测试结果
+#### 4.1.2 测试结果
 
 ![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.1-4h.png)
 
-![1544596521762](/tpcb-test-4.1-4h-os.jpg)
+![1544596521762](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.1-4h-os.jpg?raw=true)
 
-![1544596470796](/tpcb-test-4.1-4h-disk.jpg)
+![](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.1-4h-cpu.jpg?raw=true)
+
+![1544596470796](https://github.com/NemoAA/blog/blob/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.1-4h-disk.jpg?raw=true)
+
+### 4.2 test-2
+
+#### 4.2.1 调整参数
+
+```
+ -- os-kernel
+vm.dirty_writeback_centisecs = 100
+vm.dirty_expire_centisecs = 500
+vm.dirty_bytes = 536870912
+vm.dirty_background_bytes = 41943040
+
+-- postgresql.conf
+checkpoint_timeout = 10min 
+max_wal_size = 32GB
+min_wal_size = 8GB
+checkpoint_completion_target = 0.9
+```
+
+#### 4.2.2 测试结果
+
+![1544597137401](/tpcb-test-4.2-1h-tps.jpg)
+
+![1544597326919](/tpcb-test-4.2-os.jpg)
+
+![1544597372889](/tpcb-test-4.2-cpu.jpg)
+
+![1544597397859](/tpcb-test-4.2-disk.jpg)
+
+### 4.3 test-3
+
+#### 4.3.1 调整参数
+
+```
+ -- os-kernel
+vm.dirty_writeback_centisecs = 100
+vm.dirty_expire_centisecs = 500
+vm.dirty_bytes = 536870912
+vm.dirty_background_bytes = 41943040
+
+-- postgresql.conf
+checkpoint_timeout = 60min
+max_wal_size = 64GB
+min_wal_size = 16GB
+checkpoint_completion_target = 0.9
+```
+
+#### 4.3.2 测试结果
+
+
+
+
 
 ## 参考
 
