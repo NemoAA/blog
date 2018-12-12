@@ -219,7 +219,7 @@ nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 56 -j 56 -T 14400 t
 
 #### 4.1.3 测试结果
 
-
+![]()
 
 
 
