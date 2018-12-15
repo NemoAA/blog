@@ -333,6 +333,10 @@ full_page_writes = off
 
 #### 4.5.2 测试结果
 
+```
+nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 28 -j 28 -T 1800 tpcb > /home/postgres/tsdb/log/test_tpcb.log 2>&1 &
+```
+
 ![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.5-tps.png)
 
 ![1544888350492](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.5-os.png)
