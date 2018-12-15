@@ -326,14 +326,20 @@ echo 8000 > /sys/block/sda/queue/iosched/write_expire
 -- postgresql.conf
 checkpoint_timeout = 5min
 max_wal_size = 32GB
-min_wal_size = 8sGB
+min_wal_size = 8GB
 checkpoint_completion_target = 0.9
 full_page_writes = off
 ```
 
 #### 4.5.2 测试结果
 
+![](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.5-tps.png)
 
+![1544888350492](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.5-os.png)
+
+![1544888411168](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.5-cpu.png)
+
+![1544888458229](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.5-disk.png)
 
 
 
