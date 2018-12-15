@@ -140,6 +140,7 @@ pg_stat_statements.save = on
 echo never > /sys/kernel/mm/transparent_hugepage/enabled
 echo noop > /sys/block/sda/queue/scheduler
 echo 256 > /sys/block/sda/queue/read_ahead_kb
+echo 256 > /sys/block/sda/queue/nr_requests
 echo 2 > /sys/block/sda/queue/rq_affinity
 ```
 
@@ -308,6 +309,32 @@ checkpoint_completion_target = 0.9
 
 ![1544625556966](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.4-disk.png)
 
+### 4.5 test-5
+
+#### 4.5.1 调整参数
+
+```
+ -- os-kernel
+vm.dirty_writeback_centisecs = 100
+vm.dirty_expire_centisecs = 500
+vm.dirty_bytes = 2147483648 -- raid cache
+vm.dirty_background_bytes = 41943040
+
+echo 8 > /sys/block/sda/queue/iosched/writes_starved
+echo 8000 > /sys/block/sda/queue/iosched/write_expire
+
+-- postgresql.conf
+checkpoint_timeout = 5min
+max_wal_size = 32GB
+min_wal_size = 8sGB
+checkpoint_completion_target = 0.9
+full_page_writes = off
+```
+
+#### 4.5.2 测试结果
+
+
+
 
 
 ## 参考
@@ -321,3 +348,5 @@ checkpoint_completion_target = 0.9
 > <https://www.postgresql-archive.org/Two-Necessary-Kernel-Tweaks-for-Linux-Systems-td5738537.html>
 >
 > <https://www.postgresql-archive.org/Linux-kernel-impact-on-PostgreSQL-performance-td5786701i160.html#a5787696>
+>
+> <https://access.redhat.com/articles/425823#WRITE_EXPIRE>
