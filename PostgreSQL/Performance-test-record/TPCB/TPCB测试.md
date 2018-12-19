@@ -380,6 +380,37 @@ nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 28 -j 28 -T 14400 t
 ![1544977113559](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.6-cpu.png)
 
 ![1544977142698](https://raw.githubusercontent.com/NemoAA/blog/master/PostgreSQL/Performance-test-record/TPCB/result/tpcb-test-4.6-disk.png)
+### 4.7 test-7
+
+12小时不间断压测
+
+#### 4.7.1 调整参数
+
+```
+ -- os-kernel
+vm.dirty_writeback_centisecs = 100
+vm.dirty_expire_centisecs = 500
+vm.dirty_bytes = 2147483648 -- raid cache
+vm.dirty_background_bytes = 41943040
+
+echo 8 > /sys/block/sda/queue/iosched/writes_starved
+echo 8000 > /sys/block/sda/queue/iosched/write_expire
+
+-- postgresql.conf
+checkpoint_timeout = 5min
+max_wal_size = 32GB
+min_wal_size = 8GB
+checkpoint_completion_target = 0.9
+full_page_writes = off
+```
+
+#### 4.7.2 测试结果
+
+```
+nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 28 -j 28 -T 14400 tpcb > /home/postgres/tsdb/log/test_tpcb.log 2>&1 &
+```
+
+
 
 ## 参考
 
