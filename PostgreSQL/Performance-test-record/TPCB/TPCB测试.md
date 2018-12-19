@@ -394,3 +394,9 @@ nohup pgbench -M prepared --progress-timestamp -P 1 -n -r -c 28 -j 28 -T 14400 t
 > <https://www.postgresql-archive.org/Linux-kernel-impact-on-PostgreSQL-performance-td5786701i160.html#a5787696>
 >
 > <https://access.redhat.com/articles/425823#WRITE_EXPIRE>
+>
+> <https://www.enterprisedb.com/docs/en/9.6/asguide/EDB_Postgres_Advanced_Server_Guide.1.36.html>
+>
+> <https://www.enterprisedb.com/docs/en/9.4/oracompat/Database_Compatibility_for_Oracle_Developers_Guide.1.306.html>
+>
+> <https://www.enterprisedb.com/docs/en/9.4/oracompat/Database_Compatibility_for_Oracle_Developers_Guide.1.306.html>
