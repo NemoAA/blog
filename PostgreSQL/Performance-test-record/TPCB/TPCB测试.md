@@ -138,6 +138,7 @@ pg_stat_statements.save = on
 
 ```
 echo never > /sys/kernel/mm/transparent_hugepage/enabled
+echo never > /sys/kernel/mm/transparent_hugepage/defrag
 echo noop > /sys/block/sda/queue/scheduler
 echo 256 > /sys/block/sda/queue/read_ahead_kb
 echo 256 > /sys/block/sda/queue/nr_requests
